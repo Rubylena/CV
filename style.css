@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: 0.5rem 3rem 1.5rem 4rem;
+    line-height: 20px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.name {
+    text-align: center;
+    margin: 5rem 3rem 1.5rem 4rem;
+}
+
+.name-p {
+    margin-top: 0.5rem;
+}
+
+.grace,
+h3 {
+    color: rgb(194, 43, 43);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.bar {
+    color: rgb(255, 0, 0);
+}
+
+.email {
+    color: rgb(15, 91, 179);
+}
+
+.bio li {
+    font-weight: 600;
+    list-style: none;
+}
+
+.bio span {
+    font-weight: 500;
+}
+
+.bio1 {
+    margin-left: 9rem;
+}
+
+.bio2 {
+    margin-left: 4.8rem;
+}
+
+.bio3 {
+    margin-left: 4.3rem;
+}
+
+.bio4 {
+    margin-left: 4rem;
+}
+
+.bio5 {
+    margin-left: 5.6rem;
+}
+
+.bio6 {
+    margin-left: 6.7rem;
+}
+
+.ul-competence {
+    margin: 0 0 0 4rem;
+}
+
+.spacing {
+    margin-top: 0.8rem;
+}
+
+.responsible {
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+.ul-experience {
+    margin: 0 0 0 3rem;
+}
+
+.jobs {
+    margin-top: 1rem;
+}
+.exp1{margin-left: 15rem;}
+.exp2{margin-left: 23.2rem;}
+.exp3{margin-left: 16.7rem;}
+.exp4{margin-left: 24.3rem;}
+.exp5{margin-left: 21rem;}
+.exp6{margin-left: 17rem;}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        margin: 0.5rem 20rem 1.5rem 18rem;
+    }
+
+    .name {
+        margin: 5rem 20rem 1.5rem 18rem;
+    }
+    .bio1 {
+        margin-left: 10rem;
+    }
+    
+    .bio2 {
+        margin-left: 5.8rem;
+    }
+    
+    .bio3 {
+        margin-left: 5.3rem;
+    }
+    
+    .bio4 {
+        margin-left: 5rem;
+    }
+    
+    .bio5 {
+        margin-left: 6.6rem;
+    }
+    .bio6 {margin-left: 7.7rem;}
+    .exp1{margin-left: 18rem;}
+    .exp2{margin-left: 26.2rem;}
+    .exp3{margin-left: 19.7rem;}
+    .exp4{margin-left: 27.3rem;}
+    .exp5{margin-left: 24rem;}
+    .exp6{margin-left: 20rem;}
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 25px;
+    }
+    p, li, h4, h5{
+        font-size: 14px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .bio1 {
+        margin-left: 9rem;
+    }
+    
+    .bio2 {
+        margin-left: 5.4rem;
+    }
+    
+    .bio3 {
+        margin-left: 5.1rem;
+    }
+    
+    .bio4 {
+        margin-left: 4.8rem;
+    }
+    
+    .bio5 {
+        margin-left: 6.2rem;
+    }
+    .bio6 {margin-left: 7.2rem;}
+    .exp1{margin-left: 8rem;}
+    .exp2{margin-left: 15.2rem;}
+    .exp3{margin-left: 9.5rem;}
+    .exp4{margin-left: 16.2rem;}
+    .exp5{margin-left: 11.7rem;}
+    .exp6{margin-left: 7.6rem;}
+}
+@media screen and (max-width: 586px) {
+    .container {
+        margin: 0.5rem 2rem 1.5rem 2rem;
+        line-height: 20px;
+    }
+
+    .name {
+        margin: 3rem 2rem 1.5rem 2rem;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p, li, h4, h5{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .bio1 {
+        margin-left: 5.2rem;
+    }
+    
+    .bio2 {
+        margin-left: 2rem;
+    }
+    
+    .bio3 {
+        margin-left: 1.7rem;
+    }
+    
+    .bio4 {
+        margin-left: 1.4rem;
+    }
+    
+    .bio5 {
+        margin-left: 2.6rem;
+    }
+    .bio6 {margin-left: 3.5rem;}
+    .exp1{margin-left: 6rem;}
+    .exp2{margin-left: 12.2rem;}
+    .exp3{margin-left: 7.5rem;}
+    .exp4{margin-left: 13.2rem;}
+    .exp5{margin-left: 9.5rem;}
+    .exp6{margin-left: 5.9rem;}
+}
+@media screen and (max-width: 480px) {
+    .exp1{margin-left: 0.6rem;}
+    .exp2{margin-left: 6.6rem;}
+    .exp3{margin-left: 1.8rem;}
+    .exp4{margin-left: 7.5rem;}
+    .exp5{margin-left: 3.8rem;}
+    .exp6{margin-left: 0.3rem;}
+}
